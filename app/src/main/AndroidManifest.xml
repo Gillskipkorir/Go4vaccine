@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gillz.vaccdrug">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Homeactivity"
+            android:label="@string/title_activity_homeactivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginPage"
+            android:label="@string/title_activity_login_page"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Doctor"
+            android:label="@string/title_activity_doctor"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Plogin" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+            android:name=".Patient_account"
+            android:label="@string/title_activity_patient_account"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".booking" />
+        <activity
+            android:name=".MapboxF"
+            android:label="@string/title_activity_mapbox_f"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Admin"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Adminlogin"
+            android:label="@string/title_activity_adminlogin"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

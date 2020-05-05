@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Go4Vaccines</string>
+    <string name="title_activity_homeactivity">Homeactivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nearby_facilities">Nearby Facilities</string>
+    <string name="view_all_vaccines">View All vaccines</string>
+
+    <string name="for_doctor_s_use">For Doctor\'s Use</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="search_a_vaccine">Search a vaccine</string>
+    <string name="search_a_drug">Search a Drug</string>
+    <string name="update_details">Update_Details</string>
+
+    <string-array name="Vaccines">
+        <item> </item>
+        <item>Diphtheria</item>
+        <item>Tetanus</item>
+        <item>polio</item>
+        <item>Measles</item>
+        <item>Rubella</item>
+        <item>Influenzae</item>
+        <item>Hepatitis B</item>
+        <item>Cholera</item>
+        <item>Rabies</item>
+        <item>Tuberculosis</item>
+        <item>Chickenpox</item>
+        <item>Hepatitis A</item>
+        <item>Plague</item>
+        <item>Bat lyssavirus</item>
+        <item>Q fever</item>
+        <item>Meningococcal disease</item>
+
+    </string-array>
+
+    <string-array name="Facility">
+        <item> </item>
+        <item>Nyeri Referral</item>
+        <item>Mathari Hospital</item>
+        <item>Tumu Tumu Hospital</item>
+        <item>Mweiga Hospital</item>
+        <item>Mary-Imaculate</item>
+        <item>PGH Hospital</item>
+        <item>Aga Khan</item>
+        <item>Outspan Hospital</item>
+
+    </string-array>
+
+    <string-array name="level">
+        <item>Mondays </item>
+        <item>Tueeadays</item>
+        <item>Wednesdays</item>
+        <item>Thursdays</item>
+        <item>Fridays</item>
+        <item>Saturdays</item>
+        <item>Daily Basis</item>
+
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">About</string>
+    <string name="login">Login</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login_page">Doctor Login Page</string>
+    <string name="title_activity_register">Patient Registration Page</string>
+    <string name="title_activity_doctor">Welcome Doctor</string>
+    <string name="title_activity_map">Nearby Facilities</string>
+    <string name="vaccine_details">Vaccine details</string>
+    <string name="title_activity_patient_account">Patient_account</string>
+
+
+    <string name="mapbox_access_token">pk.eyJ1IjoiZ2lsbHMiLCJhIjoiY2pvOGthNG4wMTF6cTN2bzE5dWc0bTN2OCJ9.uTRFtz62XeRU1fZUTwTOBw</string>
+    <string name="title_activity_mapboxfacilitty">Mapboxfacilitty</string>
+    <string name="title_activity_mapbox_f">MapboxF</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_adminlogin">Adminlogin</string>
+</resources>
